@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BasicLayoutsAndViews</string>
+    <string name="hello_world">¡Hola!</string>
+    <string name="frame">Estamos probando el layout FrameLayout</string>
+    <string name="to">Destinatario</string>
+    <string name="subject">Asunto</string>
+    <string name="message">Mensaje</string>
+    <string name="send">Enviar</string>
+    <string name="esto_es_un_mensaje">Esto es un mensaje</string>
+</resources>
