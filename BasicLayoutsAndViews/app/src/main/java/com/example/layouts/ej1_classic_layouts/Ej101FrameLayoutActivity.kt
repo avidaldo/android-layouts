@@ -1,10 +1,10 @@
-package com.example.layouts.basiclayouts
+package com.example.layouts.classic_layouts
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.layouts.databinding.ActivityEj01FrameLayoutBinding
 
-class Ej01FrameLayoutActivity : AppCompatActivity() {
+class Ej101FrameLayoutActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityEj01FrameLayoutBinding
 

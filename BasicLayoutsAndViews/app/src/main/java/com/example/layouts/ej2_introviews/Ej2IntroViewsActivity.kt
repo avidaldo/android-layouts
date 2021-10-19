@@ -15,10 +15,10 @@ class IntroViewsActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        binding.button07.setOnClickListener { startActivity(Intent(this, Ej07BasicViewsActivity::class.java)) }
-        binding.button08.setOnClickListener { startActivity(Intent(this, Ej08PaddingMarginActivity::class.java)) }
-        binding.button09.setOnClickListener { startActivity(Intent(this, Ej09DefinicionRecursosActivity::class.java)) }
-        binding.button10.setOnClickListener { startActivity(Intent(this, Ej10ProgramaticoActivity::class.java)) }
+        binding.button07.setOnClickListener { startActivity(Intent(this, Ej201BasicViewsActivity::class.java)) }
+        binding.button08.setOnClickListener { startActivity(Intent(this, Ej202PaddingMarginActivity::class.java)) }
+        binding.button09.setOnClickListener { startActivity(Intent(this, Ej203DefinicionRecursosActivity::class.java)) }
+        binding.button10.setOnClickListener { startActivity(Intent(this, Ej204ProgramaticoActivity::class.java)) }
 
 
     }

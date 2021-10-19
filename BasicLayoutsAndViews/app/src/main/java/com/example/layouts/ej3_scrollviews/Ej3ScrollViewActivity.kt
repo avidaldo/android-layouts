@@ -1,4 +1,4 @@
-package com.example.layouts.scroll
+package com.example.layouts.scrollviews
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -17,13 +17,13 @@ class ScrollViewActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.button11.setOnClickListener {
-            startActivity(Intent(this, Ej11ScrollViewActivity::class.java))
+            startActivity(Intent(this, Ej301ScrollViewActivity::class.java))
         }
         binding.button12.setOnClickListener {
-            startActivity(Intent(this, Ej12HorizontalScrollViewActivity::class.java))
+            startActivity(Intent(this, Ej302HorizontalScrollViewActivity::class.java))
         }
         binding.button13.setOnClickListener {
-            startActivity(Intent(this, Ej13NestedScrollViewActivity::class.java))
+            startActivity(Intent(this, Ej303NestedScrollViewActivity::class.java))
         }
 
     }

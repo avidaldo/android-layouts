@@ -1,10 +1,10 @@
-package com.example.layouts.basiclayouts
+package com.example.layouts.classic_layouts
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.layouts.databinding.ActivityEj06TableLayoutBinding
 
-class Ej06TableLayoutActivity : AppCompatActivity() {
+class Ej106TableLayoutActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityEj06TableLayoutBinding
 

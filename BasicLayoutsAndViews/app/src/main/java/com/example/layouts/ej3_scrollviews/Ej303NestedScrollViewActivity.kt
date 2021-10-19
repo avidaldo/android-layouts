@@ -1,12 +1,11 @@
-package com.example.layouts.scroll
+package com.example.layouts.scrollviews
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import androidx.core.widget.NestedScrollView
 import com.example.layouts.databinding.ActivityEj13NestedScrollViewBinding
 
-class Ej13NestedScrollViewActivity : AppCompatActivity() {
+class Ej303NestedScrollViewActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityEj13NestedScrollViewBinding
 

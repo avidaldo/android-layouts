@@ -5,60 +5,70 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".basiclayouts.BasicLayoutsActivity">
+    tools:context=".classic_layouts.BasicLayoutsActivity">
 
     <Button
-        android:id="@+id/button01"
+        android:id="@+id/button101"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ej01: FrameLayout"
+        android:text="Ejemplo 101: FrameLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button02"
+        android:id="@+id/button102"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ej02: LinearLayout 1"
+        android:text="Ejemplo 102: LinearLayout 1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button01" />
+        app:layout_constraintTop_toBottomOf="@+id/button101" />
 
     <Button
-        android:id="@+id/button03"
+        android:id="@+id/button103"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ej03: LinearLayout 2"
+        android:text="Ejemplo 103: LinearLayout 2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button02" />
+        app:layout_constraintTop_toBottomOf="@+id/button102" />
 
     <Button
-        android:id="@+id/button04"
+        android:id="@+id/button104"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ej04: LinearLayout 3"
+        android:text="Ejemplo 104: LinearLayout 3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button03" />
+        app:layout_constraintTop_toBottomOf="@+id/button103" />
 
     <Button
-        android:id="@+id/button05"
+        android:id="@+id/button105"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ej04: LinearLayout 3"
+        android:text="Ejemplo 104: LinearLayout 3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button04" />
+        app:layout_constraintTop_toBottomOf="@+id/button104" />
 
     <Button
-        android:id="@+id/button06"
+        android:id="@+id/button106"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ej06: TableLayout"
+        android:text="Ejemplo 106: TableLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button05" />
+        app:layout_constraintTop_toBottomOf="@+id/button105" />
+
+    <Button
+        android:id="@+id/button1a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ejercicio A con LinearLayout"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button105" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

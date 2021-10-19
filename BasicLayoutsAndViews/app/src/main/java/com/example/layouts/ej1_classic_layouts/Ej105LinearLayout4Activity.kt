@@ -1,10 +1,10 @@
-package com.example.layouts.basiclayouts
+package com.example.layouts.classic_layouts
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.layouts.databinding.ActivityEj05LinearLayout4Binding
 
-class Ej05LinearLayout4Activity : AppCompatActivity() {
+class Ej105LinearLayout4Activity : AppCompatActivity() {
 
     private lateinit var binding: ActivityEj05LinearLayout4Binding
 

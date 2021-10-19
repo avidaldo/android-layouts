@@ -1,11 +1,11 @@
-package com.example.layouts.scroll
+package com.example.layouts.scrollviews
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.layouts.databinding.ActivityEj12HorizontalScrollViewBinding
 
 
-class Ej12HorizontalScrollViewActivity : AppCompatActivity() {
+class Ej302HorizontalScrollViewActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityEj12HorizontalScrollViewBinding
 

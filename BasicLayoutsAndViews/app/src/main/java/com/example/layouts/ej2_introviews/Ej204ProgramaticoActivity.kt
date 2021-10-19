@@ -7,7 +7,7 @@ import android.widget.Button
 import android.widget.LinearLayout
 import android.widget.TextView
 
-class Ej10ProgramaticoActivity : AppCompatActivity() {
+class Ej204ProgramaticoActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

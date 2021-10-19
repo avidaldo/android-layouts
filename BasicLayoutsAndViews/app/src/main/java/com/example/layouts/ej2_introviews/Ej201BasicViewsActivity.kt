@@ -7,7 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.example.layouts.databinding.ActivityEj07BasicViewsBinding
 
 
-class Ej07BasicViewsActivity : AppCompatActivity() {
+class Ej201BasicViewsActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityEj07BasicViewsBinding
 

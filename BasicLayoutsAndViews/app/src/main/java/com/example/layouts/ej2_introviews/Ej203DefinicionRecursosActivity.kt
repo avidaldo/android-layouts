@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.layouts.databinding.ActivityEj09DefinicionRecursosBinding
 
-class Ej09DefinicionRecursosActivity : AppCompatActivity() {
+class Ej203DefinicionRecursosActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityEj09DefinicionRecursosBinding
 

@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.layouts.databinding.ActivityEj08PaddingMarginBinding
 
-class Ej08PaddingMarginActivity : AppCompatActivity() {
+class Ej202PaddingMarginActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityEj08PaddingMarginBinding
 
