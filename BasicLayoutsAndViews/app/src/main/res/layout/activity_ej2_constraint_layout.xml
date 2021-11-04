@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".introviews.IntroViewsActivity">
+    tools:context=".ej2_introviews.Ej2IntroViewsActivity">
 
     <Button
-        android:id="@+id/button1a"
+        android:id="@+id/button201"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ej07: Elementos Básicos"
@@ -16,30 +16,30 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button08"
+        android:id="@+id/button202"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ej08: Padding y Margin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button1a" />
+        app:layout_constraintTop_toBottomOf="@+id/button201" />
 
     <Button
-        android:id="@+id/button09"
+        android:id="@+id/button203"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ej09: Definición de recursos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button08" />
+        app:layout_constraintTop_toBottomOf="@+id/button202" />
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/button204"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ej10: Creación programática"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button09" />
+        app:layout_constraintTop_toBottomOf="@+id/button203" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

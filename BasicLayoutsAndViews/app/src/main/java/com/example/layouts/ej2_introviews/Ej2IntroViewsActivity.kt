@@ -1,24 +1,24 @@
-package com.example.layouts.introviews
+package com.example.layouts.ej2_introviews
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.layouts.databinding.ActivityConstraintLayoutBinding
+import com.example.layouts.databinding.ActivityEj2ConstraintLayoutBinding
 
-class IntroViewsActivity : AppCompatActivity() {
+class Ej2IntroViewsActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityConstraintLayoutBinding
+    private lateinit var binding: ActivityEj2ConstraintLayoutBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityConstraintLayoutBinding.inflate(layoutInflater)
+        binding = ActivityEj2ConstraintLayoutBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
 
-        binding.button07.setOnClickListener { startActivity(Intent(this, Ej201BasicViewsActivity::class.java)) }
-        binding.button08.setOnClickListener { startActivity(Intent(this, Ej202PaddingMarginActivity::class.java)) }
-        binding.button09.setOnClickListener { startActivity(Intent(this, Ej203DefinicionRecursosActivity::class.java)) }
-        binding.button10.setOnClickListener { startActivity(Intent(this, Ej204ProgramaticoActivity::class.java)) }
+        binding.button201.setOnClickListener { startActivity(Intent(this, Ej201BasicViewsActivity::class.java)) }
+        binding.button202.setOnClickListener { startActivity(Intent(this, Ej202PaddingMarginActivity::class.java)) }
+        binding.button203.setOnClickListener { startActivity(Intent(this, Ej203DefinicionRecursosActivity::class.java)) }
+        binding.button204.setOnClickListener { startActivity(Intent(this, Ej204ProgramaticoActivity::class.java)) }
 
 
     }

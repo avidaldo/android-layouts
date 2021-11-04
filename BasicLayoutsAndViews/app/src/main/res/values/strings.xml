@@ -1,10 +1,40 @@
 <resources>
     <string name="app_name">BasicLayoutsAndViews</string>
-    <string name="hello_world">¡Hola!</string>
-    <string name="frame">Estamos probando el layout FrameLayout</string>
-    <string name="to">Destinatario</string>
-    <string name="subject">Asunto</string>
-    <string name="message">Mensaje</string>
-    <string name="send">Enviar</string>
-    <string name="esto_es_un_mensaje">Esto es un mensaje</string>
+    <string name="hello_world" translatable="false">¡Hola!</string>
+    <string name="frame" translatable="false">Estamos probando el layout FrameLayout</string>
+    <string name="to" translatable="false">Destinatario</string>
+    <string name="subject" translatable="false">Asunto</string>
+    <string name="message" translatable="false">Mensaje</string>
+    <string name="send" translatable="false">Enviar</string>
+    <string name="esto_es_un_mensaje" translatable="false">Esto es un mensaje</string>
+    <string name="sup_izq" translatable="false">Sup. Izq.</string>
+    <string name="sup_der" translatable="false">Sup. Der.</string>
+    <string name="central" translatable="false">central</string>
+    <string name="inf_izq" translatable="false">Inf. Izq.</string>
+    <string name="inf_der" translatable="false">Inf. Der.</string>
+    <string name="cancelar" translatable="false">Cancelar</string>
+    <string name="guardar" translatable="false">Guardar</string>
+    <string name="comentario" translatable="false">Comentario</string>
+    <string name="contenido" translatable="false">Contenido</string>
+    <string name="guardado" translatable="false">Guardado correctamente</string>
+    <string name="conectar">Connect</string>
+    <string name="user">User</string>
+    <string name="login">Log In</string>
+    <string name="password">Password</string>
+    <string name="olvido">Did you forget your password?</string>
+    <string name="aceptar">Find out</string>
+    <string name="ingles">English</string>
+    <string name="frances">French</string>
+    <string name="traducido_a">Translated into:</string>
+    <string name="lectura">Fiction</string>
+    <string name="tecnico">Essay</string>
+    <string name="tema">Genre</string>
+    <string name="teclea_autor">Write name</string>
+    <string name="autor">Author</string>
+    <string name="teclea_titulo">Write title</string>
+    <string name="titulo">Title</string>
+    <string name="empty_user">User name is mandatory</string>
+    <string name="empty_password">You have to write your password</string>
+    <string name="invalid_password">Password must be longer than 8 characters</string>
+    <string name="forgot_password">Sending new password</string>
 </resources>

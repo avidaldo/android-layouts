@@ -1,17 +1,17 @@
-package com.example.layouts.scrollviews
+package com.example.layouts.ej3_scrollviews
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
-import com.example.layouts.databinding.ActivityEj13NestedScrollViewBinding
+import com.example.layouts.databinding.ActivityEj303NestedScrollViewBinding
 
 class Ej303NestedScrollViewActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityEj13NestedScrollViewBinding
+    private lateinit var binding: ActivityEj303NestedScrollViewBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityEj13NestedScrollViewBinding.inflate(layoutInflater)
+        binding = ActivityEj303NestedScrollViewBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
 
