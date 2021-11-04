@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.layouts">
+    package="com.example.layouts" >
 
     <application
         android:allowBackup="true"
@@ -8,61 +8,83 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Layouts">
+        android:theme="@style/Theme.Layouts" >
         <activity
-            android:name=".scroll.Ej13NestedScrollViewActivity"
+            android:name=".ejercicios.EjerciciosActivity"
             android:exported="false" />
         <activity
-            android:name=".scroll.Ej12HorizontalScrollViewActivity"
+            android:name=".ejercicios.Ejercicio1aActivity"
             android:exported="false" />
         <activity
-            android:name=".scroll.Ej11ScrollViewActivity"
+            android:name=".ejercicios.Ejercicio1bActivity"
             android:exported="false" />
         <activity
-            android:name=".introviews.Ej10ProgramaticoActivity"
+            android:name=".ejercicios.Ejercicio1cActivity"
             android:exported="false" />
         <activity
-            android:name=".introviews.Ej09DefinicionRecursosActivity"
+            android:name=".ejercicios.Ejercicio2Activity"
             android:exported="false" />
         <activity
-            android:name=".introviews.Ej08PaddingMarginActivity"
+            android:name=".ejercicios.Ejercicio3Activity"
             android:exported="false" />
         <activity
-            android:name=".introviews.Ej07BasicViewsActivity"
+            android:name=".ejercicios.Ejercicio4Activity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            />
+        <activity
+            android:name=".ej3_scrollviews.Ej303NestedScrollViewActivity"
             android:exported="false" />
         <activity
-            android:name=".introviews.IntroViewsActivity"
+            android:name=".ej3_scrollviews.Ej302HorizontalScrollViewActivity"
             android:exported="false" />
         <activity
-            android:name=".scroll.ScrollViewActivity"
+            android:name=".ej3_scrollviews.Ej301ScrollViewActivity"
             android:exported="false" />
         <activity
-            android:name=".basiclayouts.BasicLayoutsActivity"
+            android:name=".ej2_introviews.Ej204ProgramaticoActivity"
             android:exported="false" />
         <activity
-            android:name=".basiclayouts.Ej06TableLayoutActivity"
+            android:name=".ej2_introviews.Ej203DefinicionRecursosActivity"
             android:exported="false" />
         <activity
-            android:name=".basiclayouts.Ej05LinearLayout4Activity"
+            android:name=".ej2_introviews.Ej202PaddingMarginActivity"
             android:exported="false" />
         <activity
-            android:name=".basiclayouts.Ej04LinearLayout3Activity"
+            android:name=".ej2_introviews.Ej201BasicViewsActivity"
             android:exported="false" />
         <activity
-            android:name=".basiclayouts.Ej03LinearLayout2Activity"
+            android:name=".ej2_introviews.Ej2IntroViewsActivity"
             android:exported="false" />
         <activity
-            android:name=".basiclayouts.Ej02LinearLayoutActivity"
+            android:name=".ej3_scrollviews.Ej3ScrollViewActivity"
             android:exported="false" />
         <activity
-            android:name=".basiclayouts.Ej01FrameLayoutActivity"
+            android:name=".ej1_classic_layouts.Ej1ClassicLayoutsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej1_classic_layouts.Ej106TableLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej1_classic_layouts.Ej105LinearLayout4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ej1_classic_layouts.Ej104LinearLayout3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ej1_classic_layouts.Ej103LinearLayout2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ej1_classic_layouts.Ej102LinearLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej1_classic_layouts.Ej101FrameLayoutActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

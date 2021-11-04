@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">BasicLayoutsAndViews</string>
+    <string name="conectar">Conectar</string>
+    <string name="user">Usuario</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="password">Contraseña</string>
+    <string name="olvido">¿Olvidaste tu contraseña?</string>
+    <string name="ingles">Inglés</string>
+    <string name="aceptar">Buscar</string>
+    <string name="frances">Francés</string>
+    <string name="traducido_a">Traducido a:</string>
+    <string name="lectura">Narrativa</string>
+    <string name="tecnico">Ensayo</string>
+    <string name="tema">Género</string>
+    <string name="teclea_autor">Teclea nombre</string>
+    <string name="autor">Autor</string>
+    <string name="teclea_titulo">Teclea título</string>
+    <string name="titulo">Título</string>
+    <string name="empty_user">Debe introducir un nombre de usuario</string>
+    <string name="empty_password">Debe introducir una contraseña</string>
+    <string name="invalid_password">Su contraseña debe tener más de 8 caracteres</string>
+    <string name="forgot_password">Enviando nueva contraseña</string>
+</resources>

@@ -1,19 +1,19 @@
-package com.example.layouts.introviews
+package com.example.layouts.ej2_introviews
 
 import android.graphics.Color
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.example.layouts.databinding.ActivityEj07BasicViewsBinding
+import com.example.layouts.databinding.ActivityEj201BasicViewsBinding
 
 
 class Ej201BasicViewsActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityEj07BasicViewsBinding
+    private lateinit var binding: ActivityEj201BasicViewsBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityEj07BasicViewsBinding.inflate(layoutInflater)
+        binding = ActivityEj201BasicViewsBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         binding.buttonShowElement.setOnClickListener { showNewTextView() }
