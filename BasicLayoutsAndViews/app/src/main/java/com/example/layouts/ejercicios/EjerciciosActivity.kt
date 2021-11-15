@@ -32,6 +32,9 @@ class EjerciciosActivity : AppCompatActivity() {
         binding.buttonEjer4.setOnClickListener {
             startActivity(Intent(this, Ejercicio4Activity::class.java))
         }
+        binding.buttonEjer5.setOnClickListener {
+            startActivity(Intent(this, Ejercicio5Activity::class.java))
+        }
 
     }
 }

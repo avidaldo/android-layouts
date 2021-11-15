@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.layouts" >
+    package="com.example.layouts">
 
     <application
         android:allowBackup="true"
@@ -8,7 +8,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Layouts" >
+        android:theme="@style/Theme.Layouts">
+        <activity
+            android:name=".ejercicios.Ejercicio5Activity"
+            android:exported="false" />
         <activity
             android:name=".ejercicios.EjerciciosActivity"
             android:exported="false" />
@@ -30,8 +33,7 @@
         <activity
             android:name=".ejercicios.Ejercicio4Activity"
             android:exported="false"
-            android:screenOrientation="portrait"
-            />
+            android:screenOrientation="portrait" />
         <activity
             android:name=".ej3_scrollviews.Ej303NestedScrollViewActivity"
             android:exported="false" />
@@ -82,9 +84,10 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true" >
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

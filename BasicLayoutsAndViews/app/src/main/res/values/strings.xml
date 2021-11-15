@@ -37,4 +37,21 @@
     <string name="empty_password">You have to write your password</string>
     <string name="invalid_password">Password must be longer than 8 characters</string>
     <string name="forgot_password">Sending new password</string>
+    <string name="name" translatable="false">Sobre Android</string>
+    <string name="yellow_star" translatable="false">Yello star</string>
+    <string name="bio" translatable="false">Android es un sistema operativo móvil basado en núcleo Linux
+        y otros software de código abierto. Fue diseñado para dispositivos móviles con
+        pantalla táctil, como teléfonos inteligentes, tabletas, relojes inteligentes (Wear OS),
+        automóviles con otros sistemas a través de Android Auto, al igual los automóviles con el
+        sistema Android Automotive y televisores Leanback.\n\n
+        Inicialmente fue desarrollado por Android Inc., que fue adquirido por Google en 2005.
+        Android fue presentado en 2007 junto con la fundación del Open Handset Alliance (un
+        consorcio de compañías de hardware, software y telecomunicaciones) para avanzar en los
+        estándares abiertos de los dispositivos móviles. El código fuente principal de Android
+        se conoce como Android Open Source Project (AOSP), que se licencia principalmente bajo la
+        Licencia Apache. Android es el sistema operativo móvil más utilizado del mundo, con una
+        cuota de mercado superior al 90 % al año 2018, muy por encima de IOS.\n\n
+    </string>
+    <string name="what_is_your_nickname" translatable="false">Escribe tu nombre</string>
+    <string name="done" translatable="false">Hecho</string>
 </resources>

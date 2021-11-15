@@ -8,4 +8,8 @@
     <dimen name="basic_padding">30dp</dimen>
     <dimen name="ej11_block_height">70dp</dimen>
     <dimen name="ej11_block2_height">140dp</dimen>
+    <dimen name="text_size">20sp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="layout_margin">16dp</dimen>
+    <dimen name="padding">16dp</dimen>
 </resources>
