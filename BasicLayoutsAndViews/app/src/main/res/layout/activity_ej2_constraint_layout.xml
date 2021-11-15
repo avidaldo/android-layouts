@@ -10,7 +10,7 @@
         android:id="@+id/button201"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ej07: Elementos Básicos"
+        android:text="Ej201: Elementos Básicos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -19,7 +19,7 @@
         android:id="@+id/button202"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ej08: Padding y Margin"
+        android:text="Ej202: Padding y Margin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button201" />
@@ -28,7 +28,7 @@
         android:id="@+id/button203"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ej09: Definición de recursos"
+        android:text="Ej203: Definición de recursos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button202" />
@@ -37,9 +37,27 @@
         android:id="@+id/button204"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ej10: Creación programática"
+        android:text="Ej204: Creación programática"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button203" />
+
+    <Button
+        android:id="@+id/button205"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ej205: Visibilidad"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button204" />
+
+    <Button
+        android:id="@+id/button206"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ej205: Rotación"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button205" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

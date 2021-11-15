@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Layouts">
         <activity
+            android:name=".ej2_introviews.Ej206RotationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej2_introviews.Ej205VisibilidadActivity"
+            android:exported="false" />
+        <activity
             android:name=".ejercicios.Ejercicio5Activity"
             android:exported="false" />
         <activity
