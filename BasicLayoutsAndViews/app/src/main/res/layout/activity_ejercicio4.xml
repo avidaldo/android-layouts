@@ -27,7 +27,6 @@
         android:layout_height="@dimen/ej11_block_height"
         android:layout_width="0dp"
         android:background="@color/grey"
-        android:ems="10"
         android:hint="@string/teclea_titulo"
         android:importantForAutofill="no"
 
@@ -101,7 +100,6 @@
         app:layout_constraintBottom_toTopOf="@+id/view"
         app:layout_constraintStart_toStartOf="@+id/view"
         app:layout_constraintTop_toTopOf="@+id/view"
-        app:layout_constraintVertical_bias="0.482"
         app:srcCompat="@drawable/libro" />
 
     <TextView

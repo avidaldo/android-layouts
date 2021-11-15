@@ -27,6 +27,7 @@
         android:layout_weight="1"
         android:gravity="center">
         <!-- Además, cambiamos la gravity de las filas que lo requieren -->
+        <!-- Se podrían eliminar los 2 atributos de esta fila y el resultado valdría igual -->
 
         <Button
             android:layout_width="wrap_content"
