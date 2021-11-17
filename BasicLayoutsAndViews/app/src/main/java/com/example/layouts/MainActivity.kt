@@ -9,6 +9,7 @@ import com.example.layouts.databinding.ActivityMainBinding
 import com.example.layouts.ejercicios.EjerciciosActivity
 import com.example.layouts.ej2_introviews.Ej2IntroViewsActivity
 import com.example.layouts.ej3_scrollviews.Ej3ScrollViewActivity
+import com.example.layouts.ej4_contraintlayout.Ej4ConstraintLayoutActivity
 
 /* https://developer.android.com/guide/topics/ui/declaring-layout */
 
@@ -34,7 +35,10 @@ class MainActivity : AppCompatActivity() {
         binding.buttonToScrollView.setOnClickListener {
             startActivity(Intent(this, Ej3ScrollViewActivity::class.java))
         }
-        binding.ejercicios.setOnClickListener {
+        binding.buttonToConstraintLayout.setOnClickListener {
+            startActivity(Intent(this, Ej4ConstraintLayoutActivity::class.java))
+        }
+        binding.buttonToEjercicios.setOnClickListener {
             startActivity(Intent(this, EjerciciosActivity::class.java))
         }
 

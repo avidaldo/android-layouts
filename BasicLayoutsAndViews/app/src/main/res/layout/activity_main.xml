@@ -7,7 +7,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <Button
         android:id="@+id/buttonToBasicLayouts"
         android:layout_width="wrap_content"
@@ -36,13 +35,22 @@
         app:layout_constraintTop_toBottomOf="@id/button_to_introviews" />
 
     <Button
-        android:id="@+id/ejercicios"
+        android:id="@+id/button_to_constraintLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Constraint Layout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/button_to_scroll_view" />
+
+    <Button
+        android:id="@+id/button_to_ejercicios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Ejercicios"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/button_to_scroll_view" />
+        app:layout_constraintTop_toBottomOf="@id/button_to_constraintLayout" />
 
 
 

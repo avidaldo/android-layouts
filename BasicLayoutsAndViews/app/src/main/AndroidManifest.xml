@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Layouts">
         <activity
+            android:name=".ej4_contraintlayout.Ej4ConstraintLayoutActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ej4_contraintlayout.CadenasActivity"
+            android:exported="false" />
+        <activity
             android:name=".ej2_introviews.Ej206RotationActivity"
             android:exported="false" />
         <activity
