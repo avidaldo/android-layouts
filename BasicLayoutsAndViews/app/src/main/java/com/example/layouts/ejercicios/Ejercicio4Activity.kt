@@ -2,15 +2,15 @@ package com.example.layouts.ejercicios
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.layouts.databinding.ActivityEjercicio4Binding
+import com.example.layouts.databinding.ActivityEjercicio4bienBinding
 
 class Ejercicio4Activity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityEjercicio4Binding
+    private lateinit var binding: ActivityEjercicio4bienBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityEjercicio4Binding.inflate(layoutInflater)
+        binding = ActivityEjercicio4bienBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
         /* Ejercicio propuesto:
