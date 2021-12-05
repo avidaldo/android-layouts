@@ -20,6 +20,7 @@ class Ej2IntroViewsActivity : AppCompatActivity() {
         binding.button204.setOnClickListener { startActivity(Intent(this, Ej204ProgramaticoActivity::class.java)) }
         binding.button205.setOnClickListener { startActivity(Intent(this, Ej205VisibilidadActivity::class.java)) }
         binding.button206.setOnClickListener { startActivity(Intent(this, Ej206RotationActivity::class.java)) }
+        binding.button207.setOnClickListener { startActivity(Intent(this, Ej207TogglePasswordActivity::class.java)) }
 
     }
 

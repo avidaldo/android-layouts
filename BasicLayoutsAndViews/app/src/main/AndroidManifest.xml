@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Layouts">
         <activity
+            android:name=".ej2_introviews.Ej207TogglePasswordActivity"
+            android:exported="false" />
+        <activity
             android:name=".ej4_contraintlayout.Ej4ConstraintLayoutActivity"
             android:exported="false" />
         <activity

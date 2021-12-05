@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -55,9 +56,20 @@
         android:id="@+id/button206"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Ej205: Rotación"
+        android:text="Ej206: Rotación"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button205" />
+
+
+    <Button
+        android:id="@+id/button207"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ej207: EditText muestra password"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button206" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

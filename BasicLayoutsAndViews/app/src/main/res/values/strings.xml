@@ -54,4 +54,6 @@
     </string>
     <string name="what_is_your_nickname" translatable="false">Escribe tu nombre</string>
     <string name="done" translatable="false">Hecho</string>
+    <string name="hidePassword" translatable="false">Ocultar contraseña</string>
+    <string name="showPassword" translatable="false">Ver contraseña</string>
 </resources>
